@@ -7,11 +7,11 @@ export default function Buttons(){
     return(
         <div className="buttons-container">
             <span>CONFIRA ALGUMAS DICAS PARA PREVENÇÃO</span>
-            <Link><span>PREVENÇÃO</span></Link>
+            <Link to="/"><span>PREVENÇÃO</span></Link>
             <span>BUSQUE INFORMAÇÕES SOBRE SUA REGIÃO</span>
-            <Link><span>CASOS</span></Link>
+            <Link to="/casos"><span>CASOS</span></Link>
             <span>DESCUBRA EVENTOS PARA APROVEITAR DURANTE A QUARENTENA</span>
-            <Link><span>EVENTOS</span></Link>
+            <Link to="/"><span>EVENTOS</span></Link>
         </div>
     );
 }
