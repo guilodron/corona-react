@@ -1,0 +1,37 @@
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 45px;
+    width: 84%;
+    background: black;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+
+.buttons-container a span{
+    outline: 0;
+    border: 0;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.buttons-container span{
+    font-weight: 700;
+    width: 76%;
+    font-size: 13px;
+}
+
+.buttons-container a:hover{
+    opacity: 0.8;
+}

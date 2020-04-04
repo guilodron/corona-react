@@ -1,0 +1,74 @@
+.select-container{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.select-text {
+    font-size: 1.5rem;
+}
+
+.form-control{
+    width: 50%;
+    left: 15px;
+}
+
+.dados {
+    width: 91%;
+    height: 42vh;
+    border: black solid 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dados .icon{
+    height: 30px;
+}
+
+.dados .infected-dead,
+.dados .update-date{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 18px;
+    align-items: center;
+}
+
+.dados .infected-dead ul,
+.dados .update-date ul{
+    
+    margin-left: 10px;
+    list-style: none;
+}
+
+.dados .infected-dead ul li {
+    margin-top: 15px;
+}
+
+.dados .infected-dead li,
+.dados .update-date li{
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.dados .infected-dead li span,
+.dados .update-date li span{
+    font-size: 1.2rem;
+    color: #D91B1B;
+}
+
+.dados .dados-credits {
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    margin-top: 18%;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
