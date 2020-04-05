@@ -24,8 +24,8 @@ export default function Header(){
                 
                 <ul className="itens">
                     <li><Link to="/casos">Casos</Link></li>
-                    <li><Link to="/">Eventos</Link></li>
-                    <li><Link to="/">Prevenção</Link></li>
+                    <li><Link to="/eventos">Eventos</Link></li>
+                    <li><Link to="/prevencao">Prevenção</Link></li>
                 </ul>
             </nav>
             

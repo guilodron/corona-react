@@ -1,0 +1,37 @@
+.prevencao-tips{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0 auto;
+}
+
+.prevencao-tip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 310px;
+    border: black solid 2px;
+    border-radius: 5%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prevencao-tip .icon-tip{
+    height: 130px;
+    margin: 21px 0;
+}
+
+.prevencao-tip .tip-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.prevencao-tip .tip-content{
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #716565;
+    width: 90%;
+}

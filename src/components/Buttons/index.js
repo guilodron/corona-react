@@ -11,7 +11,7 @@ export default function Buttons(){
             <span>BUSQUE INFORMAÇÕES SOBRE SUA REGIÃO</span>
             <Link to="/casos"><span>CASOS</span></Link>
             <span>DESCUBRA EVENTOS PARA APROVEITAR DURANTE A QUARENTENA</span>
-            <Link to="/"><span>EVENTOS</span></Link>
+            <Link to="/eventos"><span>EVENTOS</span></Link>
         </div>
     );
 }
