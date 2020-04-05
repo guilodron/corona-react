@@ -8,7 +8,7 @@ export default function PrevencaoTips(){
         <div className="prevencao-tips">
             {tips.map(dica => {
                 return (
-                    <div className="prevencao-tip">
+                    <div className="prevencao-tip" key={dica.id}>
                         <img src={dica.src} alt={dica.title} className="icon-tip"/>
                         <span className="tip-title">{dica.title}</span>
                         <hr className="prevencao-linha"/>
