@@ -31,20 +31,22 @@ export default function Graph() {
         const cases = casos.data.stat_by_country
         const size = casos.data.stat_by_country.length
         const add = Math.ceil(size / 5)
+        console.log(cases, cases[0].active_cases);
+
         setData([{
-          name: '', uv: parseInt(cases[0].active_cases), pv: 2400, amt: 2400,
+          name: '', uv: parseInt(cases[size - 1].total_cases.replace(',', '')), pv: 2400, amt: 2400,
         },
         {
-          name: cases[add].record_date.slice(0, 10), uv: parseInt(cases[add].active_cases), pv: 4300, amt: 2100,
+          name: cases[add].record_date.slice(0, 10), uv: parseInt(cases[size -1 -add].total_cases), pv: 4300, amt: 2100,
         },
         {
-          name: ' ', uv: parseInt(cases[add * 2].active_cases.replace(',', '')), pv: 4300, amt: 2100,
+          name: ' ', uv: parseInt(cases[size - 1 -(add * 2)].total_cases.replace(',', '')), pv: 4300, amt: 2100,
         },
         {
-          name: ' ', uv: parseInt(cases[add * 3].active_cases.replace(',', '')), pv: 4300, amt: 2100,
+          name: ' ', uv: parseInt(cases[size - 1 -(add * 3)].total_cases.replace(',', '')), pv: 4300, amt: 2100,
         },
         {
-          name: 'Hoje', uv: parseInt(cases[size-1].active_cases.replace(',', '')), pv: 4300, amt: 2100,
+          name: 'Hoje', uv: parseInt(cases[0].total_cases.replace(',', '')), pv: 4300, amt: 2100,
         },])
       })
   }, [])
